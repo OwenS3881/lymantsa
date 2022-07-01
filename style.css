@@ -55,6 +55,21 @@ body
     text-shadow: 1px 1px 2px black;
 }
 
+.tsa-button
+{
+    background-color: var(--color-tsa-blue);
+    color: var(--color-tsa-red);
+    border: 5px solid var(--color-tsa-red);
+    transition: 0.1s all;
+}
+
+.tsa-button:hover
+{
+    background-color: #004683;
+    border: 5px solid #c42a1c;
+    transform: scale(1.05);
+}
+
 /* Navbar */
 .navbar
 {
@@ -123,8 +138,6 @@ body
     "header header"
     "join join"
     "meeting meeting"
-    "about resources"
-    "about resources"
     ;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 150px repeat(4, 200px);
@@ -146,6 +159,37 @@ body
 .home-join-box
 {
     grid-area: join;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-join-box h1
+{
+    color: var(--color-tsa-red);
+    font-size: 40px;
+}
+
+.home-join-box h3
+{
+    color: var(--color-tsa-blue);
+    font-size: 25px;
+}
+
+.home-join-box a
+{
+    width: 25%;
+    height: 30%;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
 .home-next-meeting-box
@@ -217,16 +261,6 @@ body
 {
     text-decoration: underline;
     transform: scale(1.1);
-}
-
-.home-about-box
-{
-    grid-area: about;
-}
-
-.home-resources-box
-{
-    grid-area: resources;
 }
 
 /* Schedule */
@@ -422,18 +456,9 @@ body
     height: 50px;
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
-    background-color: rgb(188, 236, 255);
-    border: 5px solid rgb(124, 191, 196);
+    font-weight: bold;
     border-radius: 25px;
     width: 60%;
-    transition: all 0.1s;
-}
-
-.email-submit-button:hover
-{
-    background-color: rgb(134, 195, 219);
-    border: 5px solid rgb(88, 128, 131);
-    transform: scale(1.05);
 }
 
 .join-discord-img
@@ -466,4 +491,69 @@ body
 {
     text-decoration: underline;
     transform: scale(1.1);
+}
+
+/* Resources */
+.resources-header
+{
+    background-image: url(/images/blueBG_5.jpg);
+    background-position: 50% 68%;
+}
+
+.resources-box
+{
+    background-image: linear-gradient(to bottom, #e2f7ff, #fff);
+    padding: 30px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.resources-box h1
+{
+    color: var(--color-tsa-blue);
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.resources-box-grid
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.resources-box-grid div
+{
+    padding-top: 75%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.resources-box-grid div:hover
+{
+    transform: scale(1.075);
+}
+
+.resources-box p
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-size: 30px;
+    text-align: center;
+    color: var(--color-tsa-red);
+    background-color: #005DACff;
+    padding: 5px;
+    border-radius: 5px;
 }
