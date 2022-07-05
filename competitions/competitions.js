@@ -156,20 +156,22 @@ function updateCount()
     emailjs.init('WYHv9GY3JGp-GkDOQ');
 })();
 
-document.querySelector(".competition-form").addEventListener("submit", sendCompetitions);
-
-function sendCompetitions()
+window.onload = function()
 {
-    const params =
-    {
-        type: "Competitions",
-        field_1: `Name: ${document.querySelector(".name-input").value}`,
-        field_2: `Competitions: ${selectedEvents}`,
-        field_3: `Alternates: ${alternateEvents}`
-    }
-    emailjs.send("service_wmvvg3l","template_blht2yf", params).then(function (res)
-    {
-        alert("Success!");
+    document.querySelector(".competition-form").addEventListener("submit", function(event)
+    {      
+        event.preventDefault();
+        
+        const params =
+        {
+            type: "Competitions",
+            field_1: `Name: ${document.querySelector(".name-input").value}`,
+            field_2: `Competitions: ${selectedEvents}`,
+            field_3: `Alternates: ${alternateEvents}`
+        }
+        emailjs.send("service_wmvvg3l","template_blht2yf", params).then(function (res)
+        {
+            alert("Success!");
+        });
     });
-
 }
