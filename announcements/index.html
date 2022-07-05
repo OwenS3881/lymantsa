@@ -27,7 +27,7 @@
                         <a href="/join/">Join</a>
                     </li>
                     <li>
-                        <a href="">About</a>
+                        <a href="/about/">About</a>
                     </li>
                     <li>
                         <a href="/resources/">Resources</a>
@@ -36,8 +36,39 @@
                         <a href="/competitions/">Competitions</a>
                     </li>
                 </ul>
+
+                <button type="button" class="hamburger-button">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
             </div>
         </nav>
+
+        <div class="mobile-menu hide">
+            <h3>Menu</h3>
+            <hr>
+            <ul class="mobile-menu-links">
+                <li>
+                    <a href="/announcements/">Announcements</a>
+                </li>
+                <li>
+                    <a href="/schedule/">Schedule</a>
+                </li>
+                <li>
+                    <a href="/join/">Join</a>
+                </li>
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                <li>
+                    <a href="/resources/">Resources</a>
+                </li>
+                <li>
+                    <a href="/competitions/">Competitions</a>
+                </li>
+            </ul>
+        </div>
 
         <div class="content announcements-content">
 
@@ -46,7 +77,7 @@
             </div> 
 
             <div class="content-container announcements-content-container">
-                <div class="announcement-box">
+                <div class="announcement-box reveal reveal-slide-up">
                     <h1>New Announcement</h1>
                     <h3>1/1/2022</h3>
                     <p>
@@ -57,5 +88,7 @@
         </div>
 
         <script src="announcements.js"></script>
+        <script src="/reveal.js"></script>
+        <script src="/navbar.js"></script>
     </body>
 </html>

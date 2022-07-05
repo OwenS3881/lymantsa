@@ -27,7 +27,7 @@
                         <a href="/join/">Join</a>
                     </li>
                     <li>
-                        <a href="">About</a>
+                        <a href="/about/">About</a>
                     </li>
                     <li>
                         <a href="/resources/">Resources</a>
@@ -36,19 +36,57 @@
                         <a href="/competitions/">Competitions</a>
                     </li>
                 </ul>
+
+                <button type="button" class="hamburger-button">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
             </div>
         </nav>
+
+        <div class="mobile-menu hide">
+            <h3>Menu</h3>
+            <hr>
+            <ul class="mobile-menu-links">
+                <li>
+                    <a href="/announcements/">Announcements</a>
+                </li>
+                <li>
+                    <a href="/schedule/">Schedule</a>
+                </li>
+                <li>
+                    <a href="/join/">Join</a>
+                </li>
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                <li>
+                    <a href="/resources/">Resources</a>
+                </li>
+                <li>
+                    <a href="/competitions/">Competitions</a>
+                </li>
+            </ul>
+        </div>
+
         <div class="content main-content">
+            <div class="page-header main-header">
+                <h1>Welcome</h1>
+            </div>
             <div class="content-container main-content-container">
-                <div class="main-header">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem doloribus placeat odit quas, esse vitae dignissimos, earum saepe tempore quisquam doloremque atque qui necessitatibus, molestias animi maiores exercitationem repellendus!
-                </div>
-                <div class="home-join-box">
+                <div class="home-about-box  reveal reveal-slide-up">
+                    <h1>Welcome to Lyman TSA</h1>
+                    <p>
+                        Welcome to the website for Lyman's Technology Student Association club! In TSA, we compete in a variety of different STEM-related competitions. Learn more about us <a href="/about/" class="intext-a">here</a>.
+                    </p>
+                </div>              
+                <div class="home-join-box  reveal reveal-slide-up">
                     <h1>New Members!</h1>
                     <h3>Click the button below to join TSA!</h3>
                     <a href="/join/" class="tsa-button">Join</a>
                 </div>
-                <div class="home-next-meeting-box">
+                <div class="home-next-meeting-box  reveal reveal-slide-up">
                     <div>
                         <h1>Next Meeting</h1>
                     </div>
@@ -62,5 +100,7 @@
         </div>
 
         <script src="/script.js"></script>
+        <script src="/reveal.js"></script>
+        <script src="/navbar.js"></script>
     </body>
 </html>

@@ -27,7 +27,7 @@ const events =
 
     new Event("2023 State Conference and Competition", "2/22/23 - 2/25/23", "Orlando Universal DoubleTree", "<strong>Attendance to to this 3 day event is required as a member of TSA</strong> - all members will be required to compete in a minimum of 2 events and a maximum of 6"),
 
-    new Event("2023 National TSA Conference", "6/28/23 - 7/2/23", "Louisville, Kentucky", "")
+    new Event("2023 National TSA Conference", "6/28/23 - 7/2/23", "Louisville, Kentucky", ""),
 ];
 //-------------------------------------------------
 

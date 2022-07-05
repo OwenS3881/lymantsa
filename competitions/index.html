@@ -27,7 +27,7 @@
                         <a href="/join/">Join</a>
                     </li>
                     <li>
-                        <a href="">About</a>
+                        <a href="/about/">About</a>
                     </li>
                     <li>
                         <a href="/resources/">Resources</a>
@@ -36,8 +36,39 @@
                         <a href="/competitions/">Competitions</a>
                     </li>
                 </ul>
+
+                <button type="button" class="hamburger-button">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
             </div>
         </nav>
+
+        <div class="mobile-menu hide">
+            <h3>Menu</h3>
+            <hr>
+            <ul class="mobile-menu-links">
+                <li>
+                    <a href="/announcements/">Announcements</a>
+                </li>
+                <li>
+                    <a href="/schedule/">Schedule</a>
+                </li>
+                <li>
+                    <a href="/join/">Join</a>
+                </li>
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                <li>
+                    <a href="/resources/">Resources</a>
+                </li>
+                <li>
+                    <a href="/competitions/">Competitions</a>
+                </li>
+            </ul>
+        </div>
 
         <div class="content competitions-content">
             <div class="page-header competitions-header">
@@ -50,7 +81,7 @@
                     <p>
                         Every year in TSA, we compete in a bunch of different competitions at the state conference in February. Members can select up to <strong>6 events</strong> to compete in. Since all events have a maximum amount of members that can participate, we ask that you also choose up to 3 alternate events to compete in if too many of your first choices have been taken already. An overview of each event can be found on the national TSA website <a href="https://tsaweb.org/competitions-programs/tsa/high-school-competitions" class="intext-a" target="_blank">here</a>.
                         <br><br>
-                        Competition selection is not currently open.
+                        <strong>Competition selection is not currently open.</strong>
                     </p>
                 </div>
                 <div class="selected-choices-box">
@@ -90,5 +121,6 @@
         </div>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
         <script src="competitions.js"></script>
+        <script src="/navbar.js"></script>
     </body>
 </html>

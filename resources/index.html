@@ -27,7 +27,7 @@
                         <a href="/join/">Join</a>
                     </li>
                     <li>
-                        <a href="">About</a>
+                        <a href="/about/">About</a>
                     </li>
                     <li>
                         <a href="/resources/">Resources</a>
@@ -36,8 +36,39 @@
                         <a href="/competitions/">Competitions</a>
                     </li>
                 </ul>
+
+                <button type="button" class="hamburger-button">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
             </div>
         </nav>
+
+        <div class="mobile-menu hide">
+            <h3>Menu</h3>
+            <hr>
+            <ul class="mobile-menu-links">
+                <li>
+                    <a href="/announcements/">Announcements</a>
+                </li>
+                <li>
+                    <a href="/schedule/">Schedule</a>
+                </li>
+                <li>
+                    <a href="/join/">Join</a>
+                </li>
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                <li>
+                    <a href="/resources/">Resources</a>
+                </li>
+                <li>
+                    <a href="/competitions/">Competitions</a>
+                </li>
+            </ul>
+        </div>
 
         <div class="content resources-content">
 
@@ -49,28 +80,28 @@
                 <div class="resources-box">
                     <h1>Useful Links</h1>
                     <div class="resources-box-grid">
-                        <a href="https://tsaweb.org/" target="_blank">
+                        <a href="https://tsaweb.org/" target="_blank" class="reveal reveal-slide-from-left">
                             <div style="background-image: url(/images/logo.png);">
                                 <p href="">
                                     National TSA Website
                                 </p>
                             </div>
                         </a>
-                        <a href="https://floridatsa.org/" target="_blank">
+                        <a href="https://floridatsa.org/" target="_blank" class="reveal reveal-slide-from-right">
                             <div style="background-image: url(/images/florida-tsa-logo.jpeg);">
                                 <p href="">
                                     Florida TSA Website
                                 </p>
                             </div>
                         </a>
-                        <a href="https://tsaweb.org/competitions-programs/tsa/themes-problems" target="_blank">
+                        <a href="https://tsaweb.org/competitions-programs/tsa/themes-problems" target="_blank" class="reveal reveal-slide-from-left">
                             <div style="background-image: url(/images/themes-and-problems.jpg);">
                                 <p href="">
                                     Themes and Problems
                                 </p>
                             </div>
                         </a>
-                        <a href="https://tsaweb.org/competitions-programs/tsa/high-school-competitions" target="_blank">
+                        <a href="https://tsaweb.org/competitions-programs/tsa/high-school-competitions" target="_blank" class="reveal reveal-slide-from-right">
                             <div style="background-image: url(/images/competitions.png); background-position: right;">
                                 <p href="">
                                     Competition List
@@ -81,5 +112,7 @@
                 </div>
             </div>
         </div>
+        <script src="/reveal.js"></script>
+        <script src="/navbar.js"></script>
     </body>
 </html>
