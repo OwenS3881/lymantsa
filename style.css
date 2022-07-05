@@ -702,6 +702,11 @@ body
     margin-left: 30px;
 }
 
+.selected-choices-box h3
+{
+    text-align: center;
+}
+
 .competitions-choices-container
 {
     display: flex;
@@ -1154,6 +1159,21 @@ body
     .resources-box p
     {
         font-size: 25px;
+    }
+
+    .selected-choices-box
+    {
+        min-height: 300px;
+    }
+
+    .selected-choices-box h3
+    {
+        font-size: 16px;
+    }
+
+    .selected-choices-box li
+    {
+        font-size: 12px;
     }
 
     .competition-choice-box
