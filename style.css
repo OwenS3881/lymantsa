@@ -407,7 +407,8 @@ body
     justify-content: space-between;
     align-items: center;
 
-    height: auto; 
+    height: auto;
+    min-height: 200px;
 }
 
 .announcement-box h1
@@ -737,14 +738,14 @@ body
 
 .competition-choice-box
 {
-    background-color: var(--color-tsa-blue);
+    background-color: #91ccff;
     padding: 10px;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
     margin-bottom: 20px;
-    border: 5px solid var(--color-tsa-blue);
+    border: 5px solid #91ccff;
     transition: 0.25s all;
     width: 95%;
 }
@@ -779,7 +780,7 @@ body
     padding: 5px;
     border-radius: 5px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -805,7 +806,7 @@ body
     background-color: #0068c4;
     color: var(--color-tsa-red);
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 25px;
 
     transition: 0.1s all;
 }

@@ -30,8 +30,7 @@ const competitions =
     "On Demand Video",
     "Photographic Technology",
     "Prepared Presentation",
-    "Promotional Design",
-    "Virtual Reality",
+    "Promotional Design", 
     "Software Development",
     "Structural Design and Engineering",
     "System Control Technology",
@@ -41,8 +40,24 @@ const competitions =
     "UAV Drone",
     "VEX Robotics Competition",
     "Video Game Design",
+    "Virtual Reality",
     "Webmaster",
 ];
+
+competitions.sort(function (first, second)
+{
+    if (first > second)
+    {
+        return 1;
+    }
+
+    if (first < second)
+    {
+        return -1;
+    }
+
+    return 0;
+});
 
 const templateChoice = document.querySelector(".competition-choice-box");
 const container = document.querySelector(".competitions-choices-container");
@@ -169,7 +184,7 @@ window.onload = function()
             field_2: `Competitions: ${selectedEvents}`,
             field_3: `Alternates: ${alternateEvents}`
         }
-        emailjs.send("service_wmvvg3l","template_blht2yf", params).then(function (res)
+        emailjs.send("service_ch2cnjn","template_blht2yf", params).then(function (res)
         {
             alert("Success!");
         });

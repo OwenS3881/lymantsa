@@ -15,7 +15,7 @@ window.onload = function()
             field_2: "Name: " + document.querySelector(".join-name-input").value,
             field_3: "N/A"
         }
-        emailjs.send("service_wmvvg3l","template_blht2yf", params).then(function (res)
+        emailjs.send("service_ch2cnjn","template_blht2yf", params).then(function (res)
         {
             alert("Success!");
         });
