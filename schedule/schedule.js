@@ -19,9 +19,9 @@ class Event
 //Add new events here
 const events =
 [
-    new Event("First Meeting", "TBA", "TBA", "TBA"),
+    new Event("First Meeting", new Date(2022, 7, 22), "Ms. Acken's Room, 06-039", "<strong>Highly recommended for all members.</strong> We will be going over important information regarding TSA including what TSA is, for new members, and some important changes for all members"),
 
-    new Event("Leadership Conference", "10/19/22 - 10/22/22", "Altamonte Springs Hilton", "Open to all members - not just leadership. <strong>Leadership members required to attend.</strong> NOTE: if you are a member of leadership, confirmation of your ability to attend will be required prior to the first TSA meeting of the 2022-2023 school year. If unable to attend, the position may potentially be filled by a TSA member/candidate who is able to attend and will then fill the position for the school year"),
+    new Event("Leadership Conference", new Date(2022, 9, 19), "Altamonte Springs Hilton", "Open to all members - not just leadership. <strong>Leadership members required to attend.</strong> NOTE: if you are a member of leadership, confirmation of your ability to attend will be required prior to the first TSA meeting of the 2022-2023 school year. If unable to attend, the position may potentially be filled by a TSA member/candidate who is able to attend and will then fill the position for the school year. The event starts on the 19th and ends on the 22nd"),
 
     new Event("Regional Competition", new Date(2022, 11, 3), "Palm Bay High School", "One day event - not all competitions are included - all members are highly encouraged to attend, however, this is not a requirement to be a member of the TSA club"),
 
