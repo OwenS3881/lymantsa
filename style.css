@@ -313,12 +313,14 @@ body
 {
     font-size: 50px;
     color: var(--color-tsa-red);
+    text-align: center;
 }
 
 .home-next-meeting-box div:last-child h3
 {
     font-size: 25px;
     color: var(--color-tsa-blue);
+    text-align: center;
 }
 
 .home-next-meeting-box div:last-child a
