@@ -1210,6 +1210,11 @@ body
         font-size: 40px;
     }
 
+    .schedule-time-button
+    {
+        font-size: 20px;
+    }
+
     .join-steps h3
     {
         padding: 0 10px;
@@ -1223,6 +1228,11 @@ body
     .email-form h5
     {
         font-size: 15px;
+    }
+
+    .join-groupme-img:hover
+    {
+        transform: scale(1);
     }
 
     .about-box,
