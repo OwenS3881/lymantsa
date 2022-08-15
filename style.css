@@ -586,14 +586,17 @@ body
     justify-content: center;
 }
 
-.join-discord-img
+.join-groupme-img
 {
     width: auto;
     height: 100px;
     transition: all 0.25s;
+    border: 2px solid #91ccff;
+    border-radius: 20px;
+    padding: 5px;
 }
 
-.join-discord-img:hover
+.join-groupme-img:hover
 {
     transform: scale(1.1);
 }
