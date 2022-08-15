@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Schedule</title>
         <link rel="shortcut icon" href="/images/logo-icon.png">
-        <link rel="stylesheet" href="/style.css?version=8-14-2022-2">
+        <link rel="stylesheet" href="/style.css?version=8-15-2022-1">
         <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
     </head>
     <body>
@@ -78,6 +78,18 @@
             </div>  
 
             <div class="content-container schedule-content-container">
+
+                <div class="schedule-time-selectors">
+                    <button class="schedule-time-button selected" id="schedule-time-upcoming-button">
+                        Upcoming Events
+                        <span></span>
+                    </button>
+                    <button class="schedule-time-button"  id="schedule-time-past-button">
+                        Past Events
+                        <span></span>
+                    </button>
+                </div>
+
                 <div class="event-box reveal reveal-slide-up">
                     <h2 class="event-name">
                         Lorem, ipsum.
@@ -94,6 +106,13 @@
                     <p class="event-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima blanditiis aperiam dignissimos! Ut debitis ipsa, repudiandae error perspiciatis rerum ea architecto atque, id eos doloremque corporis tenetur, sequi autem cum?
                     </p>
+                </div>
+
+                <div id="upcoming-events-container" class="event-container">
+
+                </div>
+                <div id="past-events-container" class="event-container hidden">
+
                 </div>
             </div>
         </div>
