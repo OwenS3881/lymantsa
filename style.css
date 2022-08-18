@@ -488,6 +488,7 @@ body
     color: var(--color-tsa-blue);
     margin-bottom: 10px;
     font-size: 30px;
+    text-align: center;
 }
 
 .announcement-box h3
