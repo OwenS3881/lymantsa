@@ -151,9 +151,10 @@ function updateCount()
         node.appendChild(textnode);
         selectedUl.appendChild(node);
 
-        selectedEvents += element.querySelector("h4").textContent + " ";
+        selectedEvents += element.querySelector("h4").textContent + "---";
     }
 
+    alternateEvents = "";
     alternateUl.innerHTML = "";
     for (const element of alternateElements)
     {
@@ -162,7 +163,7 @@ function updateCount()
         node.appendChild(textnode);
         alternateUl.appendChild(node);
 
-        alternateEvents += element.querySelector("h4").textContent + " ";
+        alternateEvents += element.querySelector("h4").textContent + "---";
     }
 }
 
@@ -182,11 +183,25 @@ window.onload = function()
             type: "Competitions",
             field_1: `Name: ${document.querySelector(".name-input").value}`,
             field_2: `Competitions: ${selectedEvents}`,
-            field_3: `Alternates: ${alternateEvents}`
+            field_3: `Alternates: ${alternateEvents}`,
+            field_4: `Grade: ${document.querySelector(".grade-input").value}`,
+            field_5: "N/A",
+            field_6: "N/A",
+            field_7: "N/A",
+            field_8: "N/A",
+            field_9: "N/A"
         }
         emailjs.send("service_ch2cnjn","template_blht2yf", params).then(function (res)
         {
             alert("Success!");
         });
     });
+}
+
+//Unhider code
+const targetTime = new Date(2022, 7, 22, 15, 0);
+
+if (Date.now() > targetTime.getTime())
+{
+    document.querySelector("#selection-hider").classList.remove("hidden");
 }

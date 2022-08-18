@@ -928,7 +928,7 @@ body
     font-size: 20px;
 }
 
-.name-input
+.name-input, .grade-input
 {
     height: 100%;
     margin-right: 5px;
