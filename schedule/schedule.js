@@ -21,7 +21,11 @@ class Event
 //Add new events here
 const events =
 [
-    new Event("First Meeting", new Date(2022, 7, 22), "Ms. Acken's Room, 06-039", "<strong>Highly recommended for all members.</strong> We will be going over important information regarding TSA including what TSA is, for new members, and some important changes for all members", "IMPORTANT"),
+    new Event("Parent Meeting", new Date(2022, 7, 23), "Online", "Starts at 5:15 p.m. Will last about 30 minutes maximum. This meeting is for parents to learn more about TSA and the commitment that is required."),
+
+    new Event("Lyman Open House", new Date(2022, 7, 25), "Lyman High School", "Starts at 6 p.m. Come represent TSA and help us recruit new members. If you are interested in coming, email me (Owen Szymanski) at 158860@student.myscps.us."),
+
+    new Event("First Meeting", new Date(2022, 7, 22), "Ms. Acken's Room, 06-039", "<strong>Highly recommended for all members.</strong> From 2:30 p.m. - 3:30 p.m. We will be going over important information regarding TSA. This includes what TSA is, future meeting dates, communication, conference dates, competition selections, and the upcoming special election", "IMPORTANT"),
 
     new Event("Leadership Conference", new Date(2022, 9, 19), "Altamonte Springs Hilton", "Open to all members - not just leadership. <strong>Leadership members required to attend.</strong> NOTE: if you are a member of leadership, confirmation of your ability to attend will be required prior to the first TSA meeting of the 2022-2023 school year. If unable to attend, the position may potentially be filled by a TSA member/candidate who is able to attend and will then fill the position for the school year. The event starts on the 19th and ends on the 22nd", "OTHER"),
 
