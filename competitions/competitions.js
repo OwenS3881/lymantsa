@@ -197,11 +197,3 @@ window.onload = function()
         });
     });
 }
-
-//Unhider code
-const targetTime = new Date(2022, 7, 22, 15, 0);
-
-if (Date.now() > targetTime.getTime())
-{
-    document.querySelector("#selection-hider").classList.remove("hidden");
-}

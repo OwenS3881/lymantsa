@@ -22,6 +22,8 @@ const announcements =
     new Announcement("First Meeting!", new Date(2022, 7, 14), "Our first TSA meeting will be held on Monday, August 22nd after school in Ms. Acken's Room (06-039) from 2:30 - 3:30 p.m. It is highly recommended that all members attend. Please spread the word to anyone who is in TSA or is interested in joining TSA, all are welcome!<br><br>"),
 
     new Announcement("Lyman Open House", new Date(2022, 7, 18), "Hey all, TSA is going to have a table at the upcoming Lyman Open House on <strong>Thursday, August 25th at 6 p.m.</strong> Come out and represent TSA and help us recruit new members! If you are interested in coming, email me (Owen Szymanski) at 158860@student.myscps.us."),
+    
+    new Announcement("Updates and Reminders", new Date(2022, 7, 22), "Hey everyone, I've got a few updates and reminders for you all. <br><br>Our second meeting is going to happen on September 6th now instead of the 5th because the 5th is Labor Day.<br><br>If you're planning on running for Historian you need to have your speech ready for the next meeting. It can't be longer than 2 minutes. Note: All officers are required to attend the leadership conference in October so please make sure you can make that before running.<br><br> Competition selection is now open! Please make sure to submit your selections before our third meeting (9/19). You can submit your selections on the Lyman TSA website at <a href='https://lymantsa.org/competitions/'>http://lymantsa.org/competitions/</a> <br><br> The updated meeting dates and the meeting notes from today's meeting can all be found on the schedule page of the Lyman TSA website <a href='http://lymantsa.org/schedule/'>http://lymantsa.org/schedule/</a>")
 ];
 //-------------------------------------------------
 
