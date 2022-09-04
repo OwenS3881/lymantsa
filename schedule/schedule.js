@@ -111,28 +111,27 @@ function updatePage()
 
     templateEvent.remove();
 
-    //Time switch
-    const upcomingButton = document.querySelector("#schedule-time-upcoming-button");
-    const pastButton = document.querySelector("#schedule-time-past-button");
-
-    upcomingButton.addEventListener("click", function()
-    {
-        upcomingButton.classList.add("selected");
-        pastButton.classList.remove("selected");
-
-        upcomingContainer.classList.remove("hidden");
-        pastContainer.classList.add("hidden");
-    });
-
-    pastButton.addEventListener("click", function()
-    {
-        pastButton.classList.add("selected");
-        upcomingButton.classList.remove("selected");
-
-        pastContainer.classList.remove("hidden");
-        upcomingContainer.classList.add("hidden");
-    });
-
     reveal(".reveal");
-
 }
+
+//Time switch
+const upcomingButton = document.querySelector("#schedule-time-upcoming-button");
+const pastButton = document.querySelector("#schedule-time-past-button");
+
+upcomingButton.addEventListener("click", function()
+{
+    upcomingButton.classList.add("selected");
+    pastButton.classList.remove("selected");
+
+    upcomingContainer.classList.remove("hidden");
+    pastContainer.classList.add("hidden");
+});
+
+pastButton.addEventListener("click", function()
+{
+    pastButton.classList.add("selected");
+    upcomingButton.classList.remove("selected");
+
+    pastContainer.classList.remove("hidden");
+    upcomingContainer.classList.add("hidden");
+});
