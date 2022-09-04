@@ -37,6 +37,9 @@ request.onreadystatechange = function()
 request.open("GET", "schedule.php");
 request.send();
 
+const upcomingContainer = document.querySelector("#upcoming-events-container");
+const pastContainer = document.querySelector("#past-events-container");
+
 function updatePage()
 {
     console.log(rawEvents);
@@ -72,9 +75,6 @@ function updatePage()
     });
 
     const templateEvent = document.querySelector(".event-box");
-
-    const upcomingContainer = document.querySelector("#upcoming-events-container");
-    const pastContainer = document.querySelector("#past-events-container");
 
     for (const event of events) 
     {
