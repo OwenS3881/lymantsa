@@ -105,6 +105,8 @@ function updatePage()
         newEvent.querySelector(".event-date").innerHTML = `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
         newEvent.querySelector(".event-location").innerHTML = event.getLocation();
         newEvent.querySelector(".event-description").innerHTML = event.getDescription();   
+
+        newEvent.classList.add("reveal");
     }
 
     templateEvent.remove();
@@ -130,5 +132,7 @@ function updatePage()
         pastContainer.classList.remove("hidden");
         upcomingContainer.classList.add("hidden");
     });
+
+    reveal(".reveal");
 
 }
