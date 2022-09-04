@@ -1,0 +1,6 @@
+[03-Sep-2022 15:17:13 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'szymansk_tsa_app'@'162.241.24.191' to database 'szymanski_lymantsa' in /home3/szymansk/public_html/lymantsa/test/schedule/schedule.php on line 4
+[03-Sep-2022 15:17:13 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home3/szymansk/public_html/lymantsa/test/schedule/schedule.php:7
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/test/schedule/schedule.php(7): mysqli_query(false, 'SELECT * FROM s...')
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/test/schedule/schedule.php on line 7
