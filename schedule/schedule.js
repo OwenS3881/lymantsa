@@ -125,6 +125,8 @@ upcomingButton.addEventListener("click", function()
 
     upcomingContainer.classList.remove("hidden");
     pastContainer.classList.add("hidden");
+
+    reveal(".reveal");
 });
 
 pastButton.addEventListener("click", function()
@@ -134,4 +136,6 @@ pastButton.addEventListener("click", function()
 
     pastContainer.classList.remove("hidden");
     upcomingContainer.classList.add("hidden");
+
+    reveal(".reveal");
 });
