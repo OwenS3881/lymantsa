@@ -85,18 +85,18 @@
                 <div class="join-steps">
                     <div>
                         <h3>Step 1: Tell us a little bit about yourself:</h3>
-                        <form class="email-form" action="#">
+                        <form class="email-form" action="join.php" method="post">
                             <div class="form-input-wrapper">
                                 <h5>Name: </h5>
-                                <input type="text" class="join-name-input" placeholder="Name..." required>
+                                <input type="text" class="join-name-input" placeholder="Name..." name="name" required>
                             </div>
                             <h5>Student Email:</h5>
                             <div class="form-input-wrapper">
-                                <input type="number" class="email-input" placeholder="ID..." required>
+                                <input type="number" class="email-input" placeholder="ID..." name="student_id" required>
                                 <h5>@student.myscps.us</h5>
                             </div>
                            
-                            <button class="email-submit-button tsa-button">Submit</button>
+                            <button class="email-submit-button tsa-button" type="submit">Submit</button>
                         </form>
                     </div>
                     <hr>
@@ -117,7 +117,7 @@
             </div>
         </div>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-        <script src="join.js?version=2"></script>
+        <script src="join.js?version=4"></script>
         <script src="/navbar.js?version=1"></script>
     </body>
 </html>
