@@ -87,7 +87,7 @@ function updatePage()
 
         const newEvent = templateEvent.cloneNode(true);
 
-        if (date.getTime() + 86400000 < Date.now())
+        if (date.getTime() < Date.now())
         {
             pastContainer.appendChild(newEvent);
         }
