@@ -46,6 +46,8 @@ function updatePage()
 
     for (const rawEvent of rawEvents) 
     {
+        if (rawEvent.invisible == 1) continue;
+
         const newDate = new Date (rawEvent.date);
         newDate.setDate(newDate.getDate() + 1);
 
