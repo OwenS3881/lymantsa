@@ -39,6 +39,8 @@ function updatePage()
 
     for (const rawAnnouncement of rawAnnouncements) 
     {
+        if (rawAnnouncement.invisible == 1) continue;
+
         const newDate = new Date (rawAnnouncement.date);
         newDate.setDate(newDate.getDate() + 1);
 
