@@ -33,6 +33,17 @@ request.onreadystatechange = function()
 request.open("GET", "announcements.php");
 request.send();
 
+function toHyperlink(str)
+{    
+    var pattern1 = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+    var str1 = str.replace(pattern1, "<a href='$1'>$1</a>");
+    
+    var pattern2 =/(^|[^\/])(www\.[\S]+(\b|$))/gim;
+    var str2 = str1.replace(pattern2, '$1<a target="_blank" href="http://$2">$2</a>');
+    
+    return str2;
+}
+
 function updatePage()
 {
     console.log(rawAnnouncements);
@@ -76,7 +87,7 @@ function updatePage()
 
         newAnnouncement.querySelector("h1").innerHTML = announcement.getName();
         newAnnouncement.querySelector("h3").innerHTML = `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
-        newAnnouncement.querySelector("p").innerHTML = announcement.getDescription();
+        newAnnouncement.querySelector("p").innerHTML = toHyperlink(announcement.getDescription());
 
         newAnnouncement.classList.add("reveal");
     }

@@ -1,0 +1,213 @@
+[07-Sep-2022 15:35:38 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/addevent.php on line 3
+[07-Sep-2022 15:35:38 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/addevent.php on line 3
+[07-Sep-2022 15:35:38 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/addevent.php on line 6
+[07-Sep-2022 15:42:28 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/addevent.php on line 3
+[07-Sep-2022 15:42:28 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/addevent.php on line 3
+[07-Sep-2022 15:42:28 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/addevent.php on line 6
+[07-Sep-2022 15:51:57 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/addevent.php on line 3
+[07-Sep-2022 15:51:57 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/addevent.php on line 3
+[07-Sep-2022 15:51:57 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/addevent.php on line 6
+[08-Sep-2022 16:09:57 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getevent.php on line 19
+[08-Sep-2022 16:10:39 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getevent.php on line 19
+[08-Sep-2022 16:13:02 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getevent.php on line 19
+[11-Sep-2022 15:48:51 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getannouncement.php on line 19
+[11-Sep-2022 15:48:54 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getannouncement.php on line 19
+[11-Sep-2022 15:48:55 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getannouncement.php on line 19
+[11-Sep-2022 15:48:56 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getannouncement.php on line 19
+[11-Sep-2022 15:49:12 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getannouncement.php on line 19
+[11-Sep-2022 15:49:14 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getannouncement.php on line 19
+[11-Sep-2022 15:49:14 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getannouncement.php on line 19
+[11-Sep-2022 15:49:15 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getannouncement.php on line 19
+[11-Sep-2022 15:49:15 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getannouncement.php on line 19
+[11-Sep-2022 15:49:15 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getannouncement.php on line 19
+[11-Sep-2022 15:49:15 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getannouncement.php on line 19
+[11-Sep-2022 16:23:17 America/Boise] PHP Warning:  Undefined array key "location" in /home3/szymansk/public_html/lymantsa/alterevent.php on line 15
+[12-Sep-2022 14:55:18 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:55:18 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:55:18 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:55:18 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/szymansk/public_html/lymantsa/getjoin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:55:19 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:55:19 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:55:19 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:55:19 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/szymansk/public_html/lymantsa/getjoin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:55:53 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:55:53 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:55:53 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:55:53 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/szymansk/public_html/lymantsa/getjoin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:55:55 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:55:55 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:55:55 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:55:55 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/szymansk/public_html/lymantsa/getjoin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:56:18 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:56:18 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:56:18 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:56:18 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/szymansk/public_html/lymantsa/getjoin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:56:19 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:56:19 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:56:19 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:56:19 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/szymansk/public_html/lymantsa/getjoin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:57:00 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:57:00 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:57:00 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:57:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/szymansk/public_html/lymantsa/getjoin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:57:00 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:57:00 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:57:00 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:57:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/szymansk/public_html/lymantsa/getjoin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:57:18 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:57:18 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:57:18 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:57:18 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/szymansk/public_html/lymantsa/getjoin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:58:03 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:58:03 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:58:03 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:58:03 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/szymansk/public_html/lymantsa/getjoin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:58:04 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:58:04 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:58:04 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:58:04 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/szymansk/public_html/lymantsa/getjoin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 9
+[12-Sep-2022 14:58:58 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:58:58 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:58:58 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 6
+[12-Sep-2022 14:58:59 America/Boise] PHP Warning:  include_once(../db.php): Failed to open stream: No such file or directory in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:58:59 America/Boise] PHP Warning:  include_once(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/szymansk/public_html/lymantsa/getjoin.php on line 3
+[12-Sep-2022 14:58:59 America/Boise] PHP Warning:  Undefined variable $conn in /home3/szymansk/public_html/lymantsa/getjoin.php on line 6
+[12-Sep-2022 14:59:28 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 16
+[12-Sep-2022 14:59:29 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 16
+[12-Sep-2022 15:00:55 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 16
+[12-Sep-2022 15:00:56 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 16
+[12-Sep-2022 15:00:58 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 16
+[12-Sep-2022 15:01:21 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 16
+[12-Sep-2022 15:01:22 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 16
+[12-Sep-2022 15:03:42 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:03:43 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:04:47 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:04:48 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:05:12 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:05:14 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:06:28 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:06:28 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:07:58 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:08:04 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:08:05 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:08:47 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:08:48 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:09:33 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:09:34 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home3/szymansk/public_html/lymantsa/getjoin.php:17
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/getjoin.php(17): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/getjoin.php on line 17
+[12-Sep-2022 15:10:34 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 18
+[12-Sep-2022 15:10:35 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 18
+[12-Sep-2022 15:10:53 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 18
+[12-Sep-2022 15:10:53 America/Boise] PHP Warning:  Array to string conversion in /home3/szymansk/public_html/lymantsa/getjoin.php on line 23
+[12-Sep-2022 15:10:54 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 18
+[12-Sep-2022 15:10:54 America/Boise] PHP Warning:  Array to string conversion in /home3/szymansk/public_html/lymantsa/getjoin.php on line 23
+[12-Sep-2022 15:11:27 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 18
+[12-Sep-2022 15:11:28 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 18
+[12-Sep-2022 15:12:38 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 16
+[12-Sep-2022 15:12:39 America/Boise] PHP Warning:  Attempt to read property "num_rows" on bool in /home3/szymansk/public_html/lymantsa/getjoin.php on line 16
+[12-Sep-2022 15:46:13 America/Boise] PHP Fatal error:  Uncaught TypeError: strcmp(): Argument #2 ($string2) must be of type string, mysqli_result given in /home3/szymansk/public_html/lymantsa/checkpassword.php:19
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/checkpassword.php(19): strcmp('dfgdfgdfg', Object(mysqli_result))
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/checkpassword.php on line 19
+[12-Sep-2022 15:46:51 America/Boise] PHP Fatal error:  Uncaught TypeError: strcmp(): Argument #2 ($string2) must be of type string, mysqli_result given in /home3/szymansk/public_html/lymantsa/checkpassword.php:19
+Stack trace:
+#0 /home3/szymansk/public_html/lymantsa/checkpassword.php(19): strcmp('', Object(mysqli_result))
+#1 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/checkpassword.php on line 19
+[12-Sep-2022 15:48:39 America/Boise] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home3/szymansk/public_html/lymantsa/checkpassword.php:20
+Stack trace:
+#0 {main}
+  thrown in /home3/szymansk/public_html/lymantsa/checkpassword.php on line 20

@@ -37,6 +37,17 @@ request.onreadystatechange = function()
 request.open("GET", "schedule.php");
 request.send();
 
+function toHyperlink(str)
+{    
+    var pattern1 = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+    var str1 = str.replace(pattern1, "<a href='$1'>$1</a>");
+    
+    var pattern2 =/(^|[^\/])(www\.[\S]+(\b|$))/gim;
+    var str2 = str1.replace(pattern2, '$1<a target="_blank" href="http://$2">$2</a>');
+    
+    return str2;
+}
+
 const upcomingContainer = document.querySelector("#upcoming-events-container");
 const pastContainer = document.querySelector("#past-events-container");
 
@@ -106,7 +117,7 @@ function updatePage()
         newEvent.querySelector(".event-name").innerHTML = event.getName();
         newEvent.querySelector(".event-date").innerHTML = `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
         newEvent.querySelector(".event-location").innerHTML = event.getLocation();
-        newEvent.querySelector(".event-description").innerHTML = event.getDescription();   
+        newEvent.querySelector(".event-description").innerHTML = toHyperlink(event.getDescription());   
 
         newEvent.classList.add("reveal");
     }
