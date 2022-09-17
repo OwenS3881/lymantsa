@@ -1148,6 +1148,23 @@ body
     border-bottom-right-radius: 0px;
 }
 
+/* App */
+
+.app-header
+{
+    background-image: url("/images/blueBG_9.jpg");
+}
+
+#unity-canvas
+{
+    position: absolute;
+    left: -225px;
+    top: -200px;
+
+    border: 10px solid var(--color-tsa-blue);
+}
+
+
 /* Hamburger Menu */
 .hamburger-button
 {
