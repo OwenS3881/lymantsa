@@ -1164,6 +1164,73 @@ body
     border: 10px solid var(--color-tsa-blue);
 }
 
+/* Support */
+.support-header
+{
+    background-image: url(/images/blueBG_9.jpg);
+}
+
+.support-info
+{
+    background-image: linear-gradient(to bottom, #eefcfd, #fff);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+    padding: 20px;
+    
+    border-radius: 10px;
+
+    min-height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.support-info h1
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+/* Privacy Policy */
+.privacy-header
+{
+    background-image: url(/images/blueBG_9.jpg);
+}
+
+.privacy-policy-box
+{
+    background-image: linear-gradient(to bottom, #eefcfd, #fff);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+    padding: 20px;
+    
+    border-radius: 10px;
+
+    min-height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.privacy-policy-box p
+{
+    margin-bottom: 20px;
+}
+
+.privacy-policy-box h2
+{
+    margin-bottom: 30px;
+}
+
+.privacy-policy-box ul
+{
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
 
 /* Hamburger Menu */
 .hamburger-button
