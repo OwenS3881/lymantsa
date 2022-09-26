@@ -28,7 +28,11 @@ const data =
         "Architectural Design",
         6,
         [
-            
+            "Bruce Salas",
+            "Jada Taylor",
+            "Madisen Xavier",
+            "Emit Rice",
+            "Nathan Hinkle",
         ]
     ),
     new ListItem
@@ -44,7 +48,10 @@ const data =
         "Biotechnology Design",
         6,
         [
-            
+            "Samantha Proulx",
+            "Abigail Dominica",
+            "Asma Sanaullah",
+            "Emily Henderson",
         ]
     ),
     new ListItem
@@ -52,7 +59,12 @@ const data =
         "Board Game Design",
         6,
         [
-            
+            "Joshua Rowen",
+            "Dawson Reeves",
+            "Abigail Dominica",
+            "Alana Negron",
+            "Jada Taylor",
+            "Madisen Xavier",
         ]
     ),
     new ListItem
@@ -60,7 +72,12 @@ const data =
         "Chapter Team",
         6,
         [
-            
+            "Dawson Reeves",
+            "Emily Henderson",
+            "Joshua Rowen",
+            "Samantha Proulx",
+            "Abigail Dominica",
+            "Catherine Kong",
         ]
     ),
     new ListItem
@@ -68,7 +85,12 @@ const data =
         "Children's Stories",
         6,
         [
-            
+            "Dawson Reeves",
+            "Alissa Hardesty",
+            "Abigail Dominica",
+            "Emily Henderson",
+            "Emma Esteban",
+            "Zack Gordon",
         ]
     ),
     new ListItem
@@ -76,7 +98,8 @@ const data =
         "Coding",
         2,
         [
-            
+            "Joshua Evenden-Wallick",
+            "Owen Szymanski",
         ]
     ),
     new ListItem
@@ -84,7 +107,8 @@ const data =
         "Computer-Aided Design (CAD), Architecture",
         2,
         [
-            
+            "Connor McCarthy",
+            "Nathan Hinkle",
         ]
     ),
     new ListItem
@@ -92,7 +116,8 @@ const data =
         "Computer-Aided Design (CAD), Engineering",
         2,
         [
-            
+            "Val Rojas",
+            "Neil Mathews",
         ]
     ),
     new ListItem
@@ -108,7 +133,8 @@ const data =
         "Debating Technological Issues",
         2,
         [
-            
+            "Samantha Proulx",
+            "Zack Gordon",
         ]
     ),
     new ListItem
@@ -124,7 +150,8 @@ const data =
         "Dragster Design",
         2,
         [
-            
+            "Warner Ducheine",
+            "Chad Brown",
         ]
     ),
     new ListItem
@@ -132,15 +159,25 @@ const data =
         "Drone Challenge UAV",
         6,
         [
-            
+            "Joshua Evenden-Wallick",
+            "Joshua Brevoort",
+            "Jacob Henderson",
+            "Emit Rice",
+            "Lance Harmon",
+            "Alex Salzano",
         ]
     ),
     new ListItem
     (
         "Engineering Design",
-        6,
+        7,
         [
-            
+            "Samantha Proulx",
+            "Joshua Rowen",
+            "Alex Salzano",
+            "Story Salonek-Hays",
+            "Logan Weil",
+            "Connor McCarthy",
         ]
     ),
     new ListItem
@@ -148,7 +185,7 @@ const data =
         "Essays on Technology",
         1,
         [
-            
+            "Zack Gordon",
         ]
     ),
     new ListItem
@@ -156,7 +193,7 @@ const data =
         "Extemperaneous Speech",
         1,
         [
-            
+            "Dylan McCarthy",
         ]
     ),
     new ListItem
@@ -164,7 +201,10 @@ const data =
         "Fashion Design and Technology",
         4,
         [
-            
+            "Abigail Dominica",
+            "Alana Negron",
+            "Emily Henderson",
+            "Story Salonek-Hays",
         ]
     ),
     new ListItem
@@ -172,7 +212,8 @@ const data =
         "Flight Endurance",
         2,
         [
-            
+            "Val Rojas",
+            "Timo Horn-Domonkos",
         ]
     ),
     new ListItem
@@ -180,7 +221,8 @@ const data =
         "Forensic Science",
         2,
         [
-            
+            "Joshua Rowen",
+            "Dawson Reeves",
         ]
     ),
     new ListItem
@@ -220,7 +262,12 @@ const data =
         "On Demand Video",
         6,
         [
-            
+            "Warner Ducheine",
+            "Bruce Salas",
+            "Chad Brown",
+            "Nickholas Singh",
+            "Neil Mathews",
+            "Elliott McGowan",
         ]
     ),
     new ListItem
@@ -228,7 +275,7 @@ const data =
         "Photographic Technology",
         1,
         [
-            
+            "Story Salonek-Hays",
         ]
     ),
     new ListItem
@@ -236,7 +283,7 @@ const data =
         "Prepared Presentation",
         1,
         [
-            
+            "Dylan McCarthy",
         ]
     ),
     new ListItem
@@ -244,7 +291,7 @@ const data =
         "Promotional Design",
         1,
         [
-            
+            "Emit Rice",
         ]
     ),
     new ListItem
@@ -252,7 +299,10 @@ const data =
         "Senior Solar Sprint",
         4,
         [
-            
+            "Chad Brown",
+            "Alana Negron",
+            "Alex Salzano",
+            "Michael McKnight",
         ]
     ),
     new ListItem
@@ -260,7 +310,12 @@ const data =
         "Software Development",
         6,
         [
-            
+            "Owen Szymanski",
+            "Abhay Narayan",
+            "Catherine Kong",
+            "Logan Weil",
+            "Joshua Evenden-Wallick",
+            "Connor McCarthy",
         ]
     ),
     new ListItem
@@ -268,7 +323,8 @@ const data =
         "Structural Design and Engineering",
         2,
         [
-            
+            "Bruce Salas",
+            "Alex Salzano",
         ]
     ),
     new ListItem
@@ -276,7 +332,9 @@ const data =
         "System Control Technology",
         3,
         [
-            
+            "Alex Salzano",
+            "Robert Torres",
+            "Connor McCarthy",
         ]
     ),
     new ListItem
@@ -284,7 +342,9 @@ const data =
         "Technology Bowl",
         3,
         [
-            
+            "Nickholas Singh",
+            "Lance Harmon",
+            "Dylan McCarthy",
         ]
     ),
     new ListItem
@@ -292,7 +352,8 @@ const data =
         "Technology Problem Solving",
         2,
         [
-            
+            "Lance Harmon",
+            "Neil Mathews",
         ]
     ),
     new ListItem
@@ -308,7 +369,9 @@ const data =
         "VEX Robotics Competition",
         6,
         [
-            
+            "Alex Salzano",
+            "Robert Torres",
+            "Catherine Kong",
         ]
     ),
     new ListItem
@@ -316,7 +379,11 @@ const data =
         "Video Game Design",
         6,
         [
-            
+            "Owen Szymanski",
+            "Robert Torres",
+            "Catherine Kong",
+            "Joshua Evenden-Wallick",
+            "Emit Rice",
         ]
     ),
     new ListItem
@@ -324,7 +391,9 @@ const data =
         "Virtual Reality",
         6,
         [
-            
+            "Joshua Brevoort",
+            "Robert Torres",
+            "Catherine Kong",
         ]
     ),
     new ListItem
@@ -332,7 +401,9 @@ const data =
         "Webmaster",
         6,
         [
-            
+            "Owen Szymanski",
+            "Val Rojas",
+            "Abhay Narayan",
         ]
     ),
 ];
