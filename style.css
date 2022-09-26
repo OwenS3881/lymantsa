@@ -1500,4 +1500,20 @@ body
         margin-bottom: 20px;
         text-align: center;
     }
+
+    .competition-list-item-header
+    {
+        flex-direction: column;
+    }
+
+    .competition-list-item-event-name, .competition-list-item-event-count
+    {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .competition-list-item-dropdown-button
+    {
+        margin: 20px 0px;
+    }
 }
