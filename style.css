@@ -1506,10 +1506,11 @@ body
         flex-direction: column;
     }
 
-    .competition-list-item-event-name, .competition-list-item-event-count
+    .competition-list-item-event-name, .competition-list-item-count
     {
         margin-bottom: 20px;
         text-align: center;
+        font-size: 20px;
     }
 
     .competition-list-item-dropdown-button
