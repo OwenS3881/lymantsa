@@ -364,6 +364,7 @@ const data =
             
         ]
     ),
+    /*
     new ListItem
     (
         "VEX Robotics Competition",
@@ -374,6 +375,7 @@ const data =
             "Catherine Kong",
         ]
     ),
+    */
     new ListItem
     (
         "Video Game Design",
