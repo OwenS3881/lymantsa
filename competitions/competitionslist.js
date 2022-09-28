@@ -386,6 +386,7 @@ const data =
             "Catherine Kong",
             "Joshua Evenden-Wallick",
             "Emit Rice",
+            "Joshua Brevoort",
         ]
     ),
     new ListItem
