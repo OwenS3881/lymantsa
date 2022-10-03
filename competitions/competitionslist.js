@@ -33,6 +33,7 @@ const data =
             "Madisen Xavier",
             "Emit Rice",
             "Nathan Hinkle",
+            "Brayden McMichael",
         ]
     ),
     new ListItem
@@ -125,7 +126,7 @@ const data =
         "Data Science and Analytics",
         2,
         [
-            
+            "Alex Salzano"
         ]
     ),
     new ListItem
@@ -170,7 +171,7 @@ const data =
     new ListItem
     (
         "Engineering Design",
-        7,
+        8,
         [
             "Samantha Proulx",
             "Joshua Rowen",
@@ -178,6 +179,7 @@ const data =
             "Story Salonek-Hays",
             "Logan Weil",
             "Connor McCarthy",
+            "Brayden McMichael",
         ]
     ),
     new ListItem
@@ -332,9 +334,7 @@ const data =
         "System Control Technology",
         3,
         [
-            "Alex Salzano",
             "Robert Torres",
-            "Connor McCarthy",
         ]
     ),
     new ListItem
@@ -361,7 +361,7 @@ const data =
         "Transportation Modeling",
         1,
         [
-            
+            "Brayden McMichael",
         ]
     ),
     /*
@@ -397,6 +397,7 @@ const data =
             "Joshua Brevoort",
             "Robert Torres",
             "Catherine Kong",
+            "Brayden McMichael",
         ]
     ),
     new ListItem
