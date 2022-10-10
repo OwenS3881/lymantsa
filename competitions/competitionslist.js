@@ -396,7 +396,6 @@ const data =
         [
             "Joshua Brevoort",
             "Robert Torres",
-            "Catherine Kong",
             "Brayden McMichael",
         ]
     ),
