@@ -326,7 +326,6 @@ const data =
         2,
         [
             "Bruce Salas",
-            "Alex Salzano",
         ]
     ),
     new ListItem
