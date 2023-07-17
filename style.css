@@ -1266,6 +1266,8 @@ body
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    margin-bottom: 50px;
 }
 
 .officers-login h3
@@ -1305,6 +1307,122 @@ body
     font-weight: bold;
     border-radius: 25px;
     width: 150px;
+}
+
+.officers-control-panel
+{
+    background-image: linear-gradient(to bottom, #e2f7ff, #fff);
+    padding: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.officers-control-panel > div
+{
+    width: 100%;
+    min-height: 300px;
+    border: 5px solid var(--color-tsa-red);
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to bottom, #9cebff, #d7f7ff);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.officers-control-panel hr
+{
+    width: 100%;
+    margin: 40px 0;
+    height: 3px;
+    border: none;
+    background-color: var(--color-tsa-red);
+}
+
+.officers-event-panel > div, .officer-announcement-panel > div
+{
+    border: 1px solid #9fe4ff;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, #c1fbff, #fff);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    min-height: 100px;
+    width: 100%;
+}
+
+.officers-control-panel div h3
+{
+    font-size: 30px;
+    color: var(--color-tsa-blue);
+    text-shadow: 1px 1px 3px #000;
+}
+
+.officers-input-form
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.officers-input-form h4
+{
+    font-size: 25px;
+}
+
+.officers-input-wrapper
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+.officers-input-wrapper h5
+{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.officers-input-wrapper input
+{
+    font-size: 15px;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+
+.officers-input-wrapper textarea
+{
+    resize: none;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Monterserrat', sans-serif;
+    height: 200px;
+    padding: 5px;
+}
+
+.officers-control-panel button
+{
+    margin: 20px;
+    width: 200px;
+    height: 75px;
+    font-size: 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Hamburger Menu */

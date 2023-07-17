@@ -93,7 +93,7 @@
                 <div class="officers-login">
                     <div>
                         <h3>Enter the officer login password:</h3>
-                        <form class="officer-login-form" action="" method="post">
+                        <form class="officer-login-form">
                             <div class="form-input-wrapper">
                                 <input type="password" class="officers-password-input" placeholder="Password..." name="password" required>
                             </div>
@@ -102,10 +102,69 @@
                         </form>
                     </div>
                 </div>
+
+                <div class="officers-hidden-wrapper hidden">
+                    <div class="officers-control-panel">
+                        <div class="officers-event-panel">
+                            <h3>Events</h3>
+                            <hr>
+                            <div class="officers-event-panel-add">
+                                <form class="officers-input-form add-event-form">
+                                    <h4>Add an Event</h4>
+                                    <div class="officers-input-wrapper">
+                                        <h5>Title:</h5>
+                                        <input type="text" class="add-event-title">
+                                    </div>
+                                    <div class="officers-input-wrapper">
+                                        <h5>Date:</h5>
+                                        <input type="text" class="add-event-date">
+                                    </div>
+                                    <div class="officers-input-wrapper">
+                                        <h5>Details:</h5>
+                                        <input type="text" class="add-event-details">
+                                    </div>
+                                    <div class="officers-input-wrapper">
+                                        <h5>Description:</h5>
+                                        <textarea type="text" class="add-event-description"></textarea>
+                                    </div>
+                                    <button class="add-event-button tsa-button" type="submit">Add Event</button>
+                                </form>
+                            </div>
+                            <hr>
+                            <div class="officers-event-panel-alter">
+
+                            </div>
+                            <hr>
+                            <div class="officers-event-panel-remove">
+
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="officer-announcement-panel">
+                            <h3>Announcements</h3>
+                            <hr>
+                            <div class="officers-announcement-panel-add">
+
+                            </div>
+                            <hr>
+                            <div class="officers-announcement-panel-alter">
+
+                            </div>
+                            <hr>
+                            <div class="officers-announcement-panel-remove">
+                                
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="officer-join-panel">
+                            <h3>Join Data</h3>
+                        </div>
+                    </div>
+                </div>
             </div>               
         </div>
         <script src="/reveal.js?version=2"></script>
         <script src="/navbar.js?version=1"></script>
-        <script src="/officers.js?version=1"></script>
+        <script src="officers.js?version=1"></script>
     </body>
 </html>
