@@ -1,4 +1,4 @@
-document.querySelector(".officers-hidden-wrapper").classList.add("hidden");
+hidePanel();
 
 window.onload = function()
 {
@@ -6,10 +6,7 @@ window.onload = function()
     {      
         event.preventDefault();
         
-        if (checkPassword())
-        {
-            document.querySelector(".officers-hidden-wrapper").classList.add("hidden");
-        }
+        checkPassword();
     });
 }
 
@@ -26,8 +23,26 @@ function checkPassword()
     {
         if (request.readyState == 4 && request.status == 200)
         {
-            return request.responseText == "True";      
+            if (request.responseText === "True")
+            {
+                unlockPanel();
+            }
+            else
+            {
+                hidePanel();
+                alert("Access Denied");
+            }
         }
     }
     request.send("password=" + enteredPassword);
+}
+
+function unlockPanel()
+{
+    document.querySelector(".officers-hidden-wrapper").classList.remove("hidden");
+}
+
+function hidePanel()
+{
+    document.querySelector(".officers-hidden-wrapper").classList.add("hidden");
 }
