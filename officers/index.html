@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lyman TSA</title>
+        <title>Officers</title>
         <link rel="shortcut icon" href="/images/logo-icon.png">
         <link rel="stylesheet" href="/style.css?version=11">
         <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
@@ -77,36 +77,35 @@
             </ul>
         </div>
 
-        <div class="content main-content">
-            <div class="page-header main-header">
-                <h1>Welcome</h1>
-            </div>
-            <div class="content-container main-content-container">
-                <div class="home-about-box  reveal reveal-slide-up">
-                    <h1>Welcome to Lyman TSA!</h1>
-                    <h3>Lyman High School, Longwood, FL</h3>
+        <div class="content officers-content">
+
+            <div class="page-header officers-header">
+                <h1>Officers</h1>
+            </div>  
+
+            <div class="content-container officers-content-container">
+                <div class="officers-message">
                     <p>
-                        Welcome to the website for Lyman's Technology Student Association club! In TSA, we compete in a variety of different STEM-related competitions. Learn more about us <a href="/about/" class="intext-a">here</a>.
+                        This page is intended only for the use of the TSA officer team, if you are not an officer, please exit this page
                     </p>
-                </div>              
-                <div class="home-join-box  reveal reveal-slide-up">
-                    <h1>New Members!</h1>
-                    <h3>Click the button below to join TSA!</h3>
-                    <a href="/join/" class="tsa-button">Join</a>
                 </div>
-                <div class="home-next-meeting-box  reveal reveal-slide-up">
+
+                <div class="officers-login">
                     <div>
-                        <h1>Next Meeting</h1>
-                    </div>
-                    <div>
-                        <h2>???</h2>
-                        <h3>???</h3>
-                        <a href="/schedule/">Read More</a>
+                        <h3>Enter the officer login password:</h3>
+                        <form class="officer-login-form" action="" method="post">
+                            <div class="form-input-wrapper">
+                                <input type="password" class="officers-password-input" placeholder="Password..." name="password" required>
+                            </div>
+                            
+                            <button class="officer-login-button tsa-button" type="submit">Login</button>
+                        </form>
                     </div>
                 </div>
-            </div>
+            </div>               
         </div>
         <script src="/reveal.js?version=2"></script>
         <script src="/navbar.js?version=1"></script>
+        <script src="/officers.js?version=1"></script>
     </body>
 </html>
