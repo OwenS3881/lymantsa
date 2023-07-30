@@ -70,11 +70,6 @@ body
     transform: scale(1.05);
 }
 
-.hidden
-{
-    display: none;
-}
-
 @keyframes fade-in 
 {
     0% {opacity: 0;}
@@ -1275,6 +1270,7 @@ body
     font-size: 25px;
     color: var(--color-tsa-red);
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .officer-login-form
@@ -1349,7 +1345,7 @@ body
     background-color: var(--color-tsa-red);
 }
 
-.officers-event-panel > div, .officer-announcement-panel > div
+.officers-event-panel > div, .officer-announcement-panel > div, .officers-join-panel > div
 {
     border: 1px solid #9fe4ff;
     border-radius: 25px;
@@ -1414,6 +1410,32 @@ body
     padding: 5px;
 }
 
+.date-select-wrapper
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #999999;
+}
+
+.dropdown-input-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 100px;
+}
+
+.dropdown-input-wrapper h6
+{
+    margin-right: 10px;
+    font-size: 15px;
+}
+
 .officers-control-panel button
 {
     margin: 20px;
@@ -1423,6 +1445,94 @@ body
     border-radius: 25px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
+}
+
+.officers-search-event-results, .officers-search-announcement-results, .officers-remove-event-results, .officers-remove-announcement-results
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.officers-search-event-results h4, .officers-search-announcement-results h4, .officers-remove-event-results h4, .officers-remove-announcement-results h4
+{
+    font-size: 25px;
+}
+
+.officers-search-event-results div, .officers-search-announcement-results div, .officers-remove-event-results div, .officers-remove-announcement-results div
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+.officers-search-event-results h5, .officers-search-announcement-results h5, .officers-remove-event-results h5, .officers-remove-announcement-results h5
+{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.officers-search-event-results p, .officers-search-announcement-results p, .officers-remove-event-results p, .officers-remove-announcement-results p
+{
+    background-color: var(--color-tsa-blue);
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    margin: 0px 20px;
+    overflow-wrap: anywhere;
+}
+
+.add-announcement-button, .edit-announcement-button
+{
+    font-size: 20px !important;
+}
+
+.officers-join-data
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.officers-join-data-entry
+{  
+    width: 90%;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #55affd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.officers-join-data-entry-name, .officers-join-data-entry-id
+{
+    background-color: var(--color-tsa-blue);
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    overflow-wrap: anywhere;
+    height: 100%;
+    width: 50%;
+}
+
+.officers-join-data-entry-name
+{   
+    margin-right: 5px;
+}
+
+.officers-join-data-entry-id
+{
+    margin-left: 5px;
 }
 
 /* Hamburger Menu */
@@ -1710,4 +1820,32 @@ body
     {
         margin: 20px 0px;
     }
+
+    .date-select-wrapper
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 10px;
+        border: 1px solid #999999;
+    }
+
+    .dropdown-input-wrapper
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        margin: 10px 0px;
+    }
+}
+
+/* Keep at bottom */
+.hidden
+{
+    display: none;
 }

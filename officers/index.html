@@ -103,7 +103,7 @@
                     </div>
                 </div>
 
-                <div class="officers-hidden-wrapper hidden">
+                <div class="officers-hidden-wrapper">
                     <div class="officers-control-panel">
                         <div class="officers-event-panel">
                             <h3>Events</h3>
@@ -117,7 +117,78 @@
                                     </div>
                                     <div class="officers-input-wrapper">
                                         <h5>Date:</h5>
-                                        <input type="text" class="add-event-date">
+                                        <div class="add-event-date date-select-wrapper">
+                                            <div class="dropdown-input-wrapper">
+                                                <h6>Month:</h6>
+                                                <select class="date-select-month">
+                                                    <option value="01">January</option>
+                                                    <option value="02">February</option>
+                                                    <option value="03">March</option>
+                                                    <option value="04">April</option>
+                                                    <option value="05">May</option>
+                                                    <option value="06">June</option>
+                                                    <option value="07">July</option>
+                                                    <option value="08">August</option>
+                                                    <option value="09">September</option>
+                                                    <option value="10">October</option>
+                                                    <option value="11">November</option>
+                                                    <option value="12">December</option>
+                                                </select>
+                                            </div>
+                                            <div class="dropdown-input-wrapper">
+                                                <h6>Day:</h6>
+                                                <select class="date-select-day">
+                                                    <option value="01">1</option>
+                                                    <option value="02">2</option>
+                                                    <option value="03">3</option>
+                                                    <option value="04">4</option>
+                                                    <option value="05">5</option>
+                                                    <option value="06">6</option>
+                                                    <option value="07">7</option>
+                                                    <option value="08">8</option>
+                                                    <option value="09">9</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                    <option value="13">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
+                                                    <option value="17">17</option>
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="20">20</option>
+                                                    <option value="21">21</option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="24">24</option>
+                                                    <option value="25">25</option>
+                                                    <option value="26">26</option>
+                                                    <option value="27">27</option>
+                                                    <option value="28">28</option>
+                                                    <option value="29">29</option>
+                                                    <option value="30">30</option>
+                                                    <option value="31">31</option>
+                                                </select>
+                                            </div>
+                                            <div class="dropdown-input-wrapper">
+                                                <h6>Year:</h6>
+                                                <select class="date-select-year">
+                                                    <option value="2022">2022</option>
+                                                    <option value="2023">2023</option>
+                                                    <option value="2024">2024</option>
+                                                    <option value="2025">2025</option>
+                                                    <option value="2026">2026</option>
+                                                    <option value="2027">2027</option>
+                                                    <option value="2028">2028</option>
+                                                    <option value="2029">2029</option>
+                                                    <option value="2030">2030</option>
+                                                    <option value="2031">2031</option>
+                                                    <option value="2032">2032</option>
+                                                    <option value="2033">2033</option>
+                                                </select>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="officers-input-wrapper">
                                         <h5>Details:</h5>
@@ -132,11 +203,164 @@
                             </div>
                             <hr>
                             <div class="officers-event-panel-alter">
-
+                                <div class="officers-event-alter-search">
+                                    <form class="officers-input-form editsearch-event-form">
+                                        <h4>Edit an Event</h4>
+                                        <div class="officers-input-wrapper">
+                                            <h5>Search by Title:</h5>
+                                            <input type="text" class="editsearch-event-prompt">
+                                        </div>
+                                        <button class="editsearch-event-button tsa-button" type="submit">Search</button>
+                                    </form>
+                                    <div class="officers-search-event-results hidden">
+                                        <h4>Results</h4>
+                                        <div class="officers-search-event-title">
+                                            <h5>Title:</h5>
+                                            <p>
+                                                Lorem, ipsum.
+                                            </p>
+                                        </div>
+                                        <div class="officers-search-event-date">
+                                            <h5>Date:</h5>
+                                            <p>Lorem, ipsum.</p>
+                                        </div>
+                                        <div class="officers-search-event-details">
+                                            <h5>Details:</h5>
+                                            <p>Lorem, ipsum dolor.</p>
+                                        </div>
+                                        <div class="officers-search-event-description">
+                                            <h5>Description:</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sint quis omnis! Dicta nisi aperiam vitae nam nobis cumque maxime.</p>
+                                        </div>
+                                        <button class="editsearch-event-select-button tsa-button">Select</button>
+                                    </div>
+                                </div>
+                                <div class="officers-event-panel-edit hidden">
+                                    <form class="officers-input-form edit-event-form">
+                                        <h4>Edit an Event</h4>
+                                        <div class="officers-input-wrapper">
+                                            <h5>Title:</h5>
+                                            <input type="text" class="edit-event-title">
+                                        </div>
+                                        <div class="officers-input-wrapper">
+                                            <h5>Date:</h5>
+                                            <div class="edit-event-date date-select-wrapper">
+                                                <div class="dropdown-input-wrapper">
+                                                    <h6>Month:</h6>
+                                                    <select class="date-select-month">
+                                                        <option value="01">January</option>
+                                                        <option value="02">February</option>
+                                                        <option value="03">March</option>
+                                                        <option value="04">April</option>
+                                                        <option value="05">May</option>
+                                                        <option value="06">June</option>
+                                                        <option value="07">July</option>
+                                                        <option value="08">August</option>
+                                                        <option value="09">September</option>
+                                                        <option value="10">October</option>
+                                                        <option value="11">November</option>
+                                                        <option value="12">December</option>
+                                                    </select>
+                                                </div>
+                                                <div class="dropdown-input-wrapper">
+                                                    <h6>Day:</h6>
+                                                    <select class="date-select-day">
+                                                        <option value="01">1</option>
+                                                        <option value="02">2</option>
+                                                        <option value="03">3</option>
+                                                        <option value="04">4</option>
+                                                        <option value="05">5</option>
+                                                        <option value="06">6</option>
+                                                        <option value="07">7</option>
+                                                        <option value="08">8</option>
+                                                        <option value="09">9</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                        <option value="13">13</option>
+                                                        <option value="14">14</option>
+                                                        <option value="15">15</option>
+                                                        <option value="16">16</option>
+                                                        <option value="17">17</option>
+                                                        <option value="18">18</option>
+                                                        <option value="19">19</option>
+                                                        <option value="20">20</option>
+                                                        <option value="21">21</option>
+                                                        <option value="22">22</option>
+                                                        <option value="23">23</option>
+                                                        <option value="24">24</option>
+                                                        <option value="25">25</option>
+                                                        <option value="26">26</option>
+                                                        <option value="27">27</option>
+                                                        <option value="28">28</option>
+                                                        <option value="29">29</option>
+                                                        <option value="30">30</option>
+                                                        <option value="31">31</option>
+                                                    </select>
+                                                </div>
+                                                <div class="dropdown-input-wrapper">
+                                                    <h6>Year:</h6>
+                                                    <select class="date-select-year">
+                                                        <option value="2022">2022</option>
+                                                        <option value="2023">2023</option>
+                                                        <option value="2024">2024</option>
+                                                        <option value="2025">2025</option>
+                                                        <option value="2026">2026</option>
+                                                        <option value="2027">2027</option>
+                                                        <option value="2028">2028</option>
+                                                        <option value="2029">2029</option>
+                                                        <option value="2030">2030</option>
+                                                        <option value="2031">2031</option>
+                                                        <option value="2032">2032</option>
+                                                        <option value="2033">2033</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="officers-input-wrapper">
+                                            <h5>Details:</h5>
+                                            <input type="text" class="edit-event-details">
+                                        </div>
+                                        <div class="officers-input-wrapper">
+                                            <h5>Description:</h5>
+                                            <textarea type="text" class="edit-event-description"></textarea>
+                                        </div>
+                                        <button class="edit-event-button tsa-button" type="submit">Edit Event</button>
+                                    </form>
+                                </div>
                             </div>
                             <hr>
                             <div class="officers-event-panel-remove">
-
+                                <form class="officers-input-form remove-event-form">
+                                    <h4>Delete an Event</h4>
+                                    <div class="officers-input-wrapper">
+                                        <h5>Search by Title:</h5>
+                                        <input type="text" class="remove-event-prompt">
+                                    </div>
+                                    <button class="remove-event-search-button tsa-button" type="submit">Search</button>
+                                </form>
+                                <div class="officers-remove-event-results hidden">
+                                    <h4>Results</h4>
+                                    <div class="officers-remove-event-title">
+                                        <h5>Title:</h5>
+                                        <p>
+                                            Lorem, ipsum.
+                                        </p>
+                                    </div>
+                                    <div class="officers-remove-event-date">
+                                        <h5>Date:</h5>
+                                        <p>Lorem, ipsum.</p>
+                                    </div>
+                                    <div class="officers-remove-event-details">
+                                        <h5>Details:</h5>
+                                        <p>Lorem, ipsum dolor.</p>
+                                    </div>
+                                    <div class="officers-remove-event-description">
+                                        <h5>Description:</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sint quis omnis! Dicta nisi aperiam vitae nam nobis cumque maxime.</p>
+                                    </div>
+                                    <button class="remove-event-button tsa-button">Delete</button>
+                                </div>
                             </div>
                             <hr>
                         </div>
@@ -144,20 +368,262 @@
                             <h3>Announcements</h3>
                             <hr>
                             <div class="officers-announcement-panel-add">
-
+                                <form class="officers-input-form add-announcement-form">
+                                    <h4>Add an Announcement</h4>
+                                    <div class="officers-input-wrapper">
+                                        <h5>Title:</h5>
+                                        <input type="text" class="add-announcement-title">
+                                    </div>
+                                    <div class="officers-input-wrapper">
+                                        <h5>Date:</h5>
+                                        <div class="add-announcement-date date-select-wrapper">
+                                            <div class="dropdown-input-wrapper">
+                                                <h6>Month:</h6>
+                                                <select class="date-select-month">
+                                                    <option value="01">January</option>
+                                                    <option value="02">February</option>
+                                                    <option value="03">March</option>
+                                                    <option value="04">April</option>
+                                                    <option value="05">May</option>
+                                                    <option value="06">June</option>
+                                                    <option value="07">July</option>
+                                                    <option value="08">August</option>
+                                                    <option value="09">September</option>
+                                                    <option value="10">October</option>
+                                                    <option value="11">November</option>
+                                                    <option value="12">December</option>
+                                                </select>
+                                            </div>
+                                            <div class="dropdown-input-wrapper">
+                                                <h6>Day:</h6>
+                                                <select class="date-select-day">
+                                                    <option value="01">1</option>
+                                                    <option value="02">2</option>
+                                                    <option value="03">3</option>
+                                                    <option value="04">4</option>
+                                                    <option value="05">5</option>
+                                                    <option value="06">6</option>
+                                                    <option value="07">7</option>
+                                                    <option value="08">8</option>
+                                                    <option value="09">9</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                    <option value="13">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
+                                                    <option value="17">17</option>
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="20">20</option>
+                                                    <option value="21">21</option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="24">24</option>
+                                                    <option value="25">25</option>
+                                                    <option value="26">26</option>
+                                                    <option value="27">27</option>
+                                                    <option value="28">28</option>
+                                                    <option value="29">29</option>
+                                                    <option value="30">30</option>
+                                                    <option value="31">31</option>
+                                                </select>
+                                            </div>
+                                            <div class="dropdown-input-wrapper">
+                                                <h6>Year:</h6>
+                                                <select class="date-select-year">
+                                                    <option value="2022">2022</option>
+                                                    <option value="2023">2023</option>
+                                                    <option value="2024">2024</option>
+                                                    <option value="2025">2025</option>
+                                                    <option value="2026">2026</option>
+                                                    <option value="2027">2027</option>
+                                                    <option value="2028">2028</option>
+                                                    <option value="2029">2029</option>
+                                                    <option value="2030">2030</option>
+                                                    <option value="2031">2031</option>
+                                                    <option value="2032">2032</option>
+                                                    <option value="2033">2033</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="officers-input-wrapper">
+                                        <h5>Description:</h5>
+                                        <textarea type="text" class="add-announcement-description"></textarea>
+                                    </div>
+                                    <button class="add-announcement-button tsa-button" type="submit">Add Announcement</button>
+                                </form>
                             </div>
                             <hr>
                             <div class="officers-announcement-panel-alter">
-
+                                <div class="officers-announcement-alter-search">
+                                    <form class="officers-input-form editsearch-announcement-form">
+                                        <h4>Edit an Announcement</h4>
+                                        <div class="officers-input-wrapper">
+                                            <h5>Search by Title:</h5>
+                                            <input type="text" class="editsearch-announcement-prompt">
+                                        </div>
+                                        <button class="editsearch-announcement-button tsa-button" type="submit">Search</button>
+                                    </form>
+                                    <div class="officers-search-announcement-results hidden">
+                                        <h4>Results</h4>
+                                        <div class="officers-search-announcement-title">
+                                            <h5>Title:</h5>
+                                            <p>
+                                                Lorem, ipsum.
+                                            </p>
+                                        </div>
+                                        <div class="officers-search-announcement-date">
+                                            <h5>Date:</h5>
+                                            <p>Lorem, ipsum.</p>
+                                        </div>
+                                        <div class="officers-search-announcement-description">
+                                            <h5>Description:</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sint quis omnis! Dicta nisi aperiam vitae nam nobis cumque maxime.</p>
+                                        </div>
+                                        <button class="editsearch-announcement-select-button tsa-button">Select</button>
+                                    </div>
+                                </div>
+                                <div class="officers-announcement-panel-edit hidden">
+                                    <form class="officers-input-form edit-announcement-form">
+                                        <h4>Edit an Announcement</h4>
+                                        <div class="officers-input-wrapper">
+                                            <h5>Title:</h5>
+                                            <input type="text" class="edit-announcement-title">
+                                        </div>
+                                        <div class="officers-input-wrapper">
+                                            <h5>Date:</h5>
+                                            <div class="edit-announcement-date date-select-wrapper">
+                                                <div class="dropdown-input-wrapper">
+                                                    <h6>Month:</h6>
+                                                    <select class="date-select-month">
+                                                        <option value="01">January</option>
+                                                        <option value="02">February</option>
+                                                        <option value="03">March</option>
+                                                        <option value="04">April</option>
+                                                        <option value="05">May</option>
+                                                        <option value="06">June</option>
+                                                        <option value="07">July</option>
+                                                        <option value="08">August</option>
+                                                        <option value="09">September</option>
+                                                        <option value="10">October</option>
+                                                        <option value="11">November</option>
+                                                        <option value="12">December</option>
+                                                    </select>
+                                                </div>
+                                                <div class="dropdown-input-wrapper">
+                                                    <h6>Day:</h6>
+                                                    <select class="date-select-day">
+                                                        <option value="01">1</option>
+                                                        <option value="02">2</option>
+                                                        <option value="03">3</option>
+                                                        <option value="04">4</option>
+                                                        <option value="05">5</option>
+                                                        <option value="06">6</option>
+                                                        <option value="07">7</option>
+                                                        <option value="08">8</option>
+                                                        <option value="09">9</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                        <option value="13">13</option>
+                                                        <option value="14">14</option>
+                                                        <option value="15">15</option>
+                                                        <option value="16">16</option>
+                                                        <option value="17">17</option>
+                                                        <option value="18">18</option>
+                                                        <option value="19">19</option>
+                                                        <option value="20">20</option>
+                                                        <option value="21">21</option>
+                                                        <option value="22">22</option>
+                                                        <option value="23">23</option>
+                                                        <option value="24">24</option>
+                                                        <option value="25">25</option>
+                                                        <option value="26">26</option>
+                                                        <option value="27">27</option>
+                                                        <option value="28">28</option>
+                                                        <option value="29">29</option>
+                                                        <option value="30">30</option>
+                                                        <option value="31">31</option>
+                                                    </select>
+                                                </div>
+                                                <div class="dropdown-input-wrapper">
+                                                    <h6>Year:</h6>
+                                                    <select class="date-select-year">
+                                                        <option value="2022">2022</option>
+                                                        <option value="2023">2023</option>
+                                                        <option value="2024">2024</option>
+                                                        <option value="2025">2025</option>
+                                                        <option value="2026">2026</option>
+                                                        <option value="2027">2027</option>
+                                                        <option value="2028">2028</option>
+                                                        <option value="2029">2029</option>
+                                                        <option value="2030">2030</option>
+                                                        <option value="2031">2031</option>
+                                                        <option value="2032">2032</option>
+                                                        <option value="2033">2033</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="officers-input-wrapper">
+                                            <h5>Description:</h5>
+                                            <textarea type="text" class="edit-announcement-description"></textarea>
+                                        </div>
+                                        <button class="edit-announcement-button tsa-button" type="submit">Edit Announcement</button>
+                                    </form>
+                                </div>
                             </div>
                             <hr>
                             <div class="officers-announcement-panel-remove">
-                                
+                                <form class="officers-input-form remove-announcement-form">
+                                    <h4>Delete an Announcement</h4>
+                                    <div class="officers-input-wrapper">
+                                        <h5>Search by Title:</h5>
+                                        <input type="text" class="remove-announcement-prompt">
+                                    </div>
+                                    <button class="remove-announcement-search-button tsa-button" type="submit">Search</button>
+                                </form>
+                                <div class="officers-remove-announcement-results hidden">
+                                    <h4>Results</h4>
+                                    <div class="officers-remove-announcement-title">
+                                        <h5>Title:</h5>
+                                        <p>
+                                            Lorem, ipsum.
+                                        </p>
+                                    </div>
+                                    <div class="officers-remove-announcement-date">
+                                        <h5>Date:</h5>
+                                        <p>Lorem, ipsum.</p>
+                                    </div>
+                                    <div class="officers-remove-announcement-details">
+                                        <h5>Details:</h5>
+                                        <p>Lorem, ipsum dolor.</p>
+                                    </div>
+                                    <div class="officers-remove-announcement-description">
+                                        <h5>Description:</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sint quis omnis! Dicta nisi aperiam vitae nam nobis cumque maxime.</p>
+                                    </div>
+                                    <button class="remove-announcement-button tsa-button">Delete</button>
+                                </div>
                             </div>
                             <hr>
                         </div>
-                        <div class="officer-join-panel">
+                        <div class="officers-join-panel">
                             <h3>Join Data</h3>
+                            <hr>
+                            <div class="officers-join-data">
+                                <div class="officers-join-data-entry">
+                                    <h2 class="officers-join-data-entry-name">
+                                        Lorem, ipsum.
+                                    </h2>
+                                    <h2 class="officers-join-data-entry-id">
+                                        123456789
+                                    </h2>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
