@@ -809,13 +809,20 @@ body
     align-items: center;
 }
 
+.competition-choice-header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .competition-choice-box
 {
     background-color: #91ccff;
     padding: 10px;
     border-radius: 5px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
     margin-bottom: 20px;
     border: 5px solid #91ccff;
@@ -894,6 +901,42 @@ body
     margin-right: 20px;
 }
 
+.competition-choice-box hr
+{
+    width: 90%;
+    height: 1px;
+    border: none;
+    background-color: var(--color-tsa-red);
+}
+
+.competition-choice-selected-name-ul, .competition-choice-alternate-name-ul
+{
+    margin: 10px 50px;
+}
+
+.competition-choice-selected-name-li, .competition-choice-alternate-name-li
+{
+    margin: 0px 30px;
+}
+
+.competition-choice-selected-name-ul h5, .competition-choice-alternate-name-ul h5
+{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.competition-choice-selected-name-ul
+{
+    /*color: rgb(0, 194, 26);*/
+    color: var(--color-tsa-red);
+}
+
+.competition-choice-alternate-name-ul
+{
+    /*color: rgb(101, 255, 108);*/
+    color: var(--color-tsa-red);
+}
+
 .competitions-submit-box
 {
     background-image: linear-gradient(to bottom, rgb(237, 253, 255), #fff);
@@ -926,6 +969,8 @@ body
     font-size: 20px;
 }
 
+
+
 .name-input, .grade-input
 {
     height: 100%;
@@ -937,6 +982,23 @@ body
     font-weight: bold;
     border: 1px solid #000;
     border-radius: 5px;
+}
+
+.experience-input-wrapper
+{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.experience-input
+{
+    resize: none;
+    width: 100%;
+    height: 200px;
+    font-family: "Montserrat", sans-serif;
+    padding: 2px;
+    margin-top: 5px;
 }
 
 .competition-submit-button
@@ -1792,9 +1854,9 @@ body
         font-size: 12px;
     }
 
-    .competition-choice-box
+    .competition-choice-header
     {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 
     .competition-choice-box h4

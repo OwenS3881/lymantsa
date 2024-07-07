@@ -58,12 +58,12 @@ function updatePage()
             return -1;
         }
 
-        if (first.getDate().getTime() > second.getDate().getTime())
+        if (first.getDate().getTime() < second.getDate().getTime())
         {
             return -1;
         }
 
-        if (first.getDate().getTime() < second.getDate().getTime())
+        if (first.getDate().getTime() > second.getDate().getTime())
         {
             return 1;
         }

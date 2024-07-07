@@ -1,3 +1,13 @@
+window.onload = function()
+{
+    document.querySelector(".competition-form").addEventListener("submit", function(event)
+    {      
+        event.preventDefault();
+        
+        submitForm();
+    });
+}
+
 //Create event boxes
 
 const competitions = 
@@ -8,7 +18,7 @@ const competitions =
     "Biotechnology Design",
     "Board Game Design",
     "Chapter Team",
-    "Children's Stories",
+    "Childrens Stories",
     "Coding",
     "Computer-Aided Design (CAD), Architecture",
     "Computer-Aided Design (CAD), Engineering",
@@ -79,7 +89,7 @@ for (const btn of selectButtons)
 {
     btn.addEventListener("click", function ()
     {
-        const parentBox = btn.parentElement.parentElement;
+        const parentBox = btn.parentElement.parentElement.parentElement;
 
         if (selectedCount >= selectedMax && !parentBox.classList.contains("selected"))
         {
@@ -99,7 +109,7 @@ for (const btn of alternateButtons)
 {
     btn.addEventListener("click", function ()
     {
-        const parentBox = btn.parentElement.parentElement;
+        const parentBox = btn.parentElement.parentElement.parentElement;
 
         if (alternateCount >= alternateMax && !parentBox.classList.contains("alternate"))
         {
@@ -112,6 +122,86 @@ for (const btn of alternateButtons)
         updateCount();
     });
 }
+
+//Add participants
+
+//Access Database
+const request = new XMLHttpRequest();
+let rawParticipants = [];
+
+request.onreadystatechange = function()
+{
+    if (request.readyState == 4 && request.status == 200)
+    {
+        console.log(request.responseText);
+        rawParticipants = JSON.parse(request.responseText);
+        addParticipants();
+    }
+}
+
+const choiceBoxes = document.querySelectorAll(".competition-choice-box");
+
+function getSelectListOfBox(competitionName)
+{
+    return choiceBoxes[competitions.indexOf(competitionName)].querySelector(".competition-choice-selected-name-ul")
+}
+
+function getAlternateListOfBox(competitionName)
+{
+    return choiceBoxes[competitions.indexOf(competitionName)].querySelector(".competition-choice-alternate-name-ul")
+}
+
+function addParticipants()
+{
+    for (const rawParticipant of rawParticipants)
+    {
+        const name = rawParticipant.name;
+        const grade = rawParticipant.grade;
+
+        const sels = rawParticipant.selections.split("---");
+        for (const sel of sels)
+        {
+            if (sel == "") continue;
+
+            const listBox = getSelectListOfBox(sel);
+
+            const templateEntry = listBox.querySelector(".competition-choice-selected-name-li");
+
+            const newEntry = templateEntry.cloneNode(true);
+            listBox.appendChild(newEntry);
+
+            newEntry.innerHTML = `${name} - ${grade}th`;
+
+            if (templateEntry.innerHTML == "None")
+            {
+                templateEntry.remove();
+            }
+        }
+
+        const alts = rawParticipant.alternates.split("---");
+        for (const alt of alts)
+        {
+            if (alt == "") continue;
+
+            const listBox = getAlternateListOfBox(alt);
+
+            const templateEntry = listBox.querySelector(".competition-choice-alternate-name-li");
+
+            const newEntry = templateEntry.cloneNode(true);
+            listBox.appendChild(newEntry);
+
+            newEntry.innerHTML = `${name} - ${grade}th`;
+
+            if (templateEntry.innerHTML == "None")
+            {
+                templateEntry.remove();
+            }
+        }
+    }
+}
+
+request.open("GET", "get_competitions.php");
+request.send();
 
 //Update Count
 let selectedCount = 0;
@@ -167,7 +257,29 @@ function updateCount()
     }
 }
 
+function submitForm()
+{
+    const request = new XMLHttpRequest();
+    request.open("POST", "competitions.php");
+    request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    request.onreadystatechange = function()
+    {
+        if (request.readyState == 4 && request.status == 200)
+        {
+            alert(request.responseText);
+        }
+    }
+
+    const name = document.querySelector(".name-input").value;
+    const grade = document.querySelector(".grade-input").value;
+    const experience = document.querySelector(".experience-input").value;
+
+    request.send("name=" + name + "&grade=" + grade + "&experience=" + experience + "&selections=" + selectedEvents + "&alternates=" + alternateEvents);
+}
+
+//---Old code for email---//
 //Submit form
+/*
 (function() {
     emailjs.init('WYHv9GY3JGp-GkDOQ');
 })();
@@ -197,3 +309,4 @@ window.onload = function()
         });
     });
 }
+*/

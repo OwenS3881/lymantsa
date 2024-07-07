@@ -1,2 +1,5 @@
-#Ignore PHP files
-*.php
+#Ignore connection files
+db.php
+
+#Ignore chat
+chat/

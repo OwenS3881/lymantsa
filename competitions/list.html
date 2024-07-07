@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Competitions</title>
         <link rel="shortcut icon" href="/images/logo-icon.png">
-        <link rel="stylesheet" href="/style.css?version=11">
+        <link rel="stylesheet" href="/style.css?version=14">
         <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
     </head>
     <body>
@@ -35,6 +35,9 @@
                     </li>
                     <li>
                         <a href="/competitions/">Competitions</a>
+                    </li>
+                    <li>
+                        <a href="/officers/">Officers</a>
                     </li>
                 </ul>
 
@@ -68,6 +71,9 @@
                 <li>
                     <a href="/competitions/">Competitions</a>
                 </li>
+                <li>
+                    <a href="/officers/">Officers</a>
+                </li>
             </ul>
         </div>
 
@@ -82,50 +88,27 @@
                     <p>
                         Every year in TSA, we compete in a bunch of different competitions at the state conference in February. Members can select up to <strong>6 events</strong> to compete in. Since all events have a maximum amount of members that can participate, we ask that you also choose up to 3 alternate events to compete in if too many of your first choices have been taken already. An overview of each event can be found on the national TSA website <a href="https://tsaweb.org/competitions-programs/tsa/high-school-competitions" class="intext-a" target="_blank">here</a>.
                         <br><br>
-                        <strong>Competition selection is currently closed.</strong>
+                        <strong>Competition selection is closed for this year. Please contact the TSA leadership team to select your competitions if you are new to the club</strong>
                     </p>
                 </div>
-                <div class="selected-choices-box">
-                    <div>
-                        <h3 class="competitions-selected-text">Competitions Selected: 0/6</h3>
-                        <ul class="competitions-selected-ul">
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="alternate-selected-text">Alternative Events Selected: 0/3</h3>
-                        <ul class="alternate-selected-ul">
-                        </ul>
-                    </div>
-                </div>
-                <div class="hidden" id="selection-hider">
-                    <div class="competitions-submit-box">
-                        <form class="competition-form" action="#">
-                            <div class="name-input-wrapper">
-                                <h5>Name:</h5>
-                                <input type="text" class="name-input" placeholder="Name..." required>
-                            </div>
-                            <div class="grade-input-wrapper">
-                                <h5>Grade Level:</h5>
-                                <input type="number" class="grade-input" placeholder="Grade..." required>
-                            </div>
-                            <button class="competition-submit-button tsa-button">Submit</button>
-                        </form>
-                    </div>
-                </div>
-
-                <div class="competitions-choices-container">
-                    <div class="competition-choice-box">
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <div>
-                            <button class="button-competition-selected">Select</Select></button>
-                            <button class="button-alternate-selected">Alternate</button>
+                <div class="competition-list-container">
+                    <div class="competition-list-item">
+                        <div class="competition-list-item-header">
+                            <h3 class="competition-list-item-event-name">Event Name</h3>
+                            <h3 class="competition-list-item-count">Participants: 3/6</h3>
+                            <button class="competition-list-item-dropdown-button">
+                                <span></span>
+                                <span></span>
+                            </button>
                         </div>
+                        <ul class="competition-list-item-names">
+                            <h4>Participants:</h4>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-        <script src="competitions.js?version=2"></script>
+        <script src="competitionslist.js?version=7"></script>
         <script src="/navbar.js?version=1"></script>
     </body>
 </html>
